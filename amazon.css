@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;         
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(amazon_logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+/*box2*/
+.address  {
+    width: 150px;
+    height: 50px; 
+    padding-top: 10px;     
+}
+.addfirst{
+    font-size: 12px;
+    color: #cccccc;
+}
+.addsecond{
+    font-size: 14px;
+}
+/*box3*/
+.searchbar{
+    height: 50px;
+    width: 550px;
+    background-color:black;
+    display: flex;
+    margin-top: 10px;
+}
+.all{
+    height: 40px;
+    width: 45px;
+    background-color: whitesmoke;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;    
+}
+.icon-box{
+    height: 40px ;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 165, 6);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search-icon{
+    height:20px ;
+    width: 20px;
+    background-image: url(search-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+/*box4*/
+.signin{
+    height: 50px;
+    margin: 10px;    
+}
+.signin p{
+    padding-left: 5px;
+}
+.account{
+    padding: 5px 5px 5px 0px;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    border-color: black;   
+}
+/*box4*/
+.orders{
+    padding: 10px;    
+}
+.cart{
+    height: 50px;
+    width: 70px;
+    border: 1px solid transparent;    
+}
+.cart-icon{
+    height: 50px;
+    width: 100%;
+    background-image: url(amazoncart.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.cart p{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+/*content*/
+.allcontent{
+    height: 39px;
+    width: auto;
+    background-color:#222f3d;
+    
+}
+.content{
+    height: 39px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border: 1px solid transparent;
+    font-size: 12px   
+}
+.menu{
+    height: 35px;
+    width:50px ;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0rem;
+}
+
+.menulogo{
+    height: 20px;
+    width: 20px;
+    background-image: url(menu2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 0px;
+    background-color: white;  
+       
+}
+/*logo of mobiles*/
+.mobilesimg{
+    height: 300px;
+    background-image: url(mobiles_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.items{
+    height: 800px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+.clothing{
+    height: 350px;
+    width:270px;
+    background-image: url(clothing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading1{
+    width: 270px ;
+}
+.mobile{
+    height: 350px;
+    width:270px;
+    background-image: url(mobiles.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading2{
+    width: 270px ;
+}
+.kids{
+    height: 350px;
+    width:270px;
+    background-image: url(kidswere.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.heading3{
+    width: 270px ;
+}
+.footwere{
+    height: 350px;
+    width:270px;
+    background-image: url(footwere.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.heading4{
+    width: 270px ;
+}
+.cooking{
+    height: 350px;
+    width:270px;
+    background-image: url(cooking.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.heading5{
+    width: 270px ;
+}
+.watches{
+    height: 350px;
+    width:270px;
+    background-image: url(watches.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+.heading6{
+    width: 270px ;
+}
+.bags{
+    height: 350px;
+    width:270px;
+    background-image: url(bags.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.heading7{
+    width: 270px ;
+}
+.furniture{
+    height: 350px;
+    width:270px;
+    background-image: url(furniture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.heading8{
+    width: 270px ;
+}
+.footer{
+    height: 600px;
+}
+.style{
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 12px; 
+    margin: 40px;   
+}
+.style1 a{
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    padding: 2px 80px;
+    border-radius: 5px;   
+}
+.backtotop{
+    height: 26px;
+    background-color: #222f3d;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 12px;
+}
+.formore{
+    height: 300px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    
+}
+.formore a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px; 
+    
+
+}
+.formore ul li{
+    list-style-type: none;
+}
+.last{
+    height: 100px;
+    background-color: black;
+}
+.lastlogo{
+    height: 50px;
+    background-image: url(amazon_logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.places{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.places a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
